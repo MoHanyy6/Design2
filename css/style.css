@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/bg.jpg");
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    height: 800px;
+}
+
+.logo {
+    padding-left: 7%;
+    padding-top: 1%;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 50%;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav .signin {
+    background-color: green;
+    padding: 8px 15px;
+    border-radius: 8px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 75px;
+}
+
+p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+    font-size: 25px;
+    color: white;
+    padding-left: 5%;
+    background-color: rgba(0, 0, 0, 0.25); /* Adjust the alpha value (0.5 for semi-transparent) */
+}
+
+.buttons-container {
+    text-align: left;
+    padding-left: 10%;
+}
+
+.Downloadbtn {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 15px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.watchbtn {
+    background-color: #e74c3c;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Downloadbtn:hover,
+.watchbtn:hover {
+    background-color: #45a049; /* Darker green on hover, adjust as needed */
+}
+.iphone-image{
+    height: 267px;
+    width: 412px;
+    background-image: url(../images/phone.png);
+    border-radius: 20px;
+    margin-right: 10px;
+    
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
